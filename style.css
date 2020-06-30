@@ -14,7 +14,7 @@ p{
     font-weight: 700;
     color:dimgray;
 }
-.name-highlight{
+.color-highlight{
     color: orangered;
 }
 .half-width{
@@ -32,6 +32,7 @@ p{
 }
 section{
     height:500px;
+    margin-bottom: 50px;
 }
 .link-button{
     text-decoration: none;
@@ -40,4 +41,35 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.big-dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-style{
+    box-shadow: 10px 10px 40px dimgray;
+    border-radius: 10px;
+    height: 60%;
+
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-stack{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, rgb(29, 185, 233), rgba(61, 16, 223, 0.795));
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
