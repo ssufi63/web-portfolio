@@ -1,0 +1,23 @@
+body{
+    font-family: 'Thasadith', sans-serif;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+}
+p{
+    font-weight: 700;
+    color: black;
+}
+.name-highlight{
+    color: orangered;
+    font-size: xx-large;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
